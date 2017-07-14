@@ -96,12 +96,9 @@ public class main {
 				
 				for(int a=0;a<booklist.size();a++) {
 					Serch =booklist.get(a).name.indexOf(name1);
-					countindex++;
-				
 					if(Serch>=0) {
-						System.out.println(booklist.get(countindex-1).getName()+"	"+booklist.get(countindex-1).getPh()+"	"+booklist.get(countindex-1).getCall());
+						booklist.get(a).showInfo(a);
 					}
-					//System.out.println(Serch);
 				}System.out.println(" ");
 				
 				
